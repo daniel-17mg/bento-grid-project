@@ -12,9 +12,6 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 I recently completed a Bento Grid project, which challenged me to design and structure a flexible grid-based layout inspired by the clean and modular "bento box" style. The project involved organizing content into multiple grid sections while maintaining a visually balanced and user-friendly design.
@@ -38,10 +35,44 @@ Throughout the project, I faced several challenges:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://daniel-17mg.github.io/bento-grid-project/)
+- Live Site URL: [Add live site URL here](https://daniel-17mg.github.io/bento-grid-project/)
 
 ## My process
+
+1. Project Setup
+
+I started by creating the project with HTML for the structure and used Tailwind CSS as my styling framework to speed up development and maintain consistency.
+
+2. Layout Planning
+
+Before coding, I outlined the grid sections I wanted, similar to a bento box style layout.
+
+3. Building the Layout
+
+I used a combination of CSS Grid and Flexbox:
+
+Grid was used to create the overall structure of the bento grid (rows and columns).
+
+Flexbox was used inside some grid items to align content neatly.
+
+4. Responsiveness
+
+To make sure the layout looked good on all devices, I added Tailwind responsive classes (like md:grid-cols-2, lg:grid-cols-4, etc.).
+
+On desktop, the layout displays multiple columns.
+
+On tablet, the number of columns reduces for readability.
+
+On mobile, everything stacks into a single column for easy scrolling.
+
+5. Challenges & Learnings
+
+I faced challenges combining Grid and Flexbox effectively. At first, some sections didn’t align as expected.
+
+I also struggled with the order property when rearranging items across breakpoints, but through trial and error I learned how to control it.
+
+Making the layout fully responsive was tricky, but I gained confidence in using Tailwind’s responsive utilities.
 
 ### Built with
 
@@ -53,51 +84,26 @@ Throughout the project, I faced several challenges:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Working on this project taught me several important skills:
 
-To see how you can add code snippets, see below:
+- Responsiveness with Tailwind CSS → I learned how to make layouts adapt to different screen sizes using Tailwind’s responsive classes (sm:, md:, lg:, etc.), ensuring the design works well on mobile, tablet, and desktop.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- Structuring layouts with Grid and Flexbox → I gained hands-on experience combining CSS Grid for the overall page structure and Flexbox for aligning content inside individual sections. This helped me understand when to use each approach.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- Using the order property → I practiced rearranging elements at different breakpoints with the order utility in Tailwind. At first, it was challenging, but I learned how to control the flow of elements effectively across devices.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+While building this project, I realized there are still areas I want to improve on:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Advanced Responsiveness → I’d like to practice more with complex breakpoints and layouts, ensuring my designs remain pixel-perfect across all devices.
 
-### Useful resources
+- Deeper Grid & Flexbox Mastery → Although I got comfortable using Grid for structure and Flexbox for alignment, I want to explore more advanced layout patterns and refine my decision-making on when to use each.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Order & Content Flow → I plan to get more confident using the order property and other responsive utilities in Tailwind to handle content rearrangement in a cleaner way.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Reusable Components → In the future, I want to focus on making my layout components more reusable and modular, which will make scaling larger projects easier.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/daniel-17mg)
