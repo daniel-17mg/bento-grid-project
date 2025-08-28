@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Bento grid</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="h-[100vh] md:flex justify-center items-center">
+  <section class="lg:w-[60rem] lg:h-[auto] lg:shadow-2xl lg:place-items-center lg:py-[1rem]">
+    <section class="md:w-[47rem] md:gap-x-[1rem] h-[30rem] grid md:grid-cols-4 grid-cols-1 p-[1rem] md:p-0">
+      <div class="md:col-span-1 md:h-[30rem] flex flex-col order-2 md:order-1 gap-[1rem]">
+        <div class="bg-[rgba(255,245,204,0.89)] md:shadow-2xl rounded md:h-1/2 pl-[1rem] md:py-[2rem] md:pl-[1rem] p-[2rem] md:p-0 space-y-[1rem]">
+          <h2 class="text-[1.4rem] font-bold leading-[1.5rem]">Create and <br class="md:block hidden"> schedule <br> content <br class="md:block hidden"> <span class="text-purple-600">quicker</span></h2>
+          <div class="md:w-[7rem] max-w-[9rem]">
+            <img src="./assets/images/illustration-create-post.webp" alt="create post image" class="object-cover w-[100%]">
+          </div>
+        </div>
+        
+        <div class="md:h-1/2 bg-[rgb(255,184,78)] rounded pl-[1rem] space-y-[1rem] py-[0.5rem]">
+          <h2 class="text-[1.4rem] font-bold leading-[1.5rem]">Write your <br class="md:block hidden"> content <br> using AI</h2>
+          <div class="md:w-[8rem] max-w-[10rem]">
+            <img src="./assets/images/illustration-ai-content.webp" alt="chat image" class="object-cover w-[100%]">
+          </div>
+        </div>
+      </div>
+
+      <div class="md:col-span-3 order-1 md:order-2  md:h-[30rem]">
+        <div class="md:h-[22rem] grid md:grid-cols-3 grid-cols-1 gap-x-[1rem] md:mb-[1rem]">
+          <div class="md:col-span-2 md:h-[22rem] mb-[1rem] md:mb-0 md:gap-[1rem] flex flex-col">
+            <div class="md:h-[60%]  bg-purple-500 shadow-2xl mb-[1rem] md:mb-0 text-white text-center place-content-center rounded">
+              <h1 class="capitalize font-bold text-[2rem] leading-[2.5rem]">social media <br class="md:hidden block"> 10&times; <br class="md:block hidden"> faster <br class="md:hidden block"> with AI</h1>
+              <div class="md:w-[6rem] max-w-[9rem] mx-auto mt-[1rem]">
+                <img src="./assets/images/illustration-five-stars.webp" alt="" class="object-cover w-[100%]">
+              </div>
+              <p>Over 4,000 5-star reviews</p>
+            </div>
+
+            <div class="md:h-[40%] grid md:grid-cols-2 grid-cols-1 space-y-[1rem] md:space-y-0 md:gap-x-[1rem]">
+              <div class="shadow-2xl md:shadow-xl  rounded overflow-hidden">
+                <div class="md:w-[14rem]">
+                  <img src="./assets/images/illustration-multiple-platforms.webp" alt="" class="object-cover w-[100%]">
+                </div>
+                <h2 class="leading-none md:py-[0.5rem] py-[1rem] font-bold md:text-[1.1rem] text-[1.3rem] pl-[0.3rem] ">Manage <br class="md:block hidden"> multiple <br class="md:block hidden"> accounts <br class="md:hidden block"> and <br class="md:block hidden"> platforms.</h2>
+              </div>
+
+              <div class="rounded overflow-hidden md:pl-[0.3rem] px-[1rem] md:px-0 bg-[rgb(255,184,78)]">
+                <h2 class="leading-none py-[0.5rem] pt-[1rem] md:pt-0 font-bold md:text-[1.1rem] text-[1.3rem]">Maintain a <br class="md:block hidden"> consistent <br> posting schedule</h2>
+                <div class="relative top-[1rem] md:static md:w-[10rem] max-w-[12rem]">
+                  <img src="./assets/images/illustration-consistent-schedule.webp" alt="" class="object-cover w-[100%]">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-1 md:h-[22rem]  md:shadow-2xl text-center bg-purple-200 overflow-hidden md:pt-[0.5rem] p-[1rem] md:p-0  rounded space-y-[0.5rem] mb-[1rem] md:mb-0">
+            <h2 class="font-bold md:pl-[2.4rem] md:text-[1.2rem] text-[1.5rem]">Schedule to <br class="md:block hidden"> social media</h2>
+            <div class="md:w-[13rem] md:relative md:left-[2.7rem] mx-auto">
+              <img src="./assets/images/illustration-schedule-posts.webp" alt="" class="object-cover w-[100%] ">
+            </div>
+            <p class="md:text-[12px] text-[15px] md:pl-[2.4rem]">Optimize post timings <br class="md:block hidden"> to publish <br class="md:hidden block"> content at <br class="md:block hidden"> the perfect time for <br> your audience</p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 grid-cols-1 md:gap-x-[1.2rem] gap-y-[1rem] md:gap-y-0 mb-[1rem] md:mb-0 md:h-[7rem]">
+          <div class="md:col-span-1 rounded order-2 md:order-1 shadow p-[1rem] md:p-0 md:w-[11.1rem] space-y-[0.5rem] md:space-y-0 pl-[1rem]">
+            <h1 class="md:font-semibold font-bold text-[1.5rem]">&gt;56%</h1>
+            <p class="md:text-[13px] text-[15px]">faster audience growth</p>
+            <div class="md:w-[8rem] max-w-[10rem] mt-[0.2rem]">
+              <img src="./assets/images/illustration-audience-growth.webp" alt="" class="object-cover w-[100%]">
+            </div>
+          </div>
+
+          <div class="md:col-span-2 rounded order-1 md:order-2 p-[1rem] md:p-0 flex flex-col md:flex-row bg-purple-500 text-white md:pl-[1rem] md:items-center text-center md:text-left gap-[1rem]">
+            <div class="md:w-[7rem] max-w-[13rem] mx-auto md:mx-0">
+              <img src="./assets/images/illustration-grow-followers.webp" alt="" class="object-cover w-[100%]">
+            </div>
+            <h1 class="md:font-semibold font-bold text-[1.5rem]">Grow followers <br> with non-stop <br> content</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</body>
+</html>
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+  Coded by <a href="#">Daniel</a>.
+</div> -->
