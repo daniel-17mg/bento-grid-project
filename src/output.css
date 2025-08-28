@@ -415,6 +415,9 @@
   .p-\[2rem\] {
     padding: 2rem;
   }
+  .p-\[rem\] {
+    padding: rem;
+  }
   .px-\[1rem\] {
     padding-inline: 1rem;
   }
@@ -435,6 +438,15 @@
   }
   .pt-\[1rem\] {
     padding-top: 1rem;
+  }
+  .pb-\[1rem\] {
+    padding-bottom: 1rem;
+  }
+  .pb-\[2rem\] {
+    padding-bottom: 2rem;
+  }
+  .pb-\[rem\] {
+    padding-bottom: rem;
   }
   .pl-\[0\.3rem\] {
     padding-left: 0.3rem;
